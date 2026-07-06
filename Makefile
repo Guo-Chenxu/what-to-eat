@@ -8,7 +8,7 @@ help: ## 显示帮助信息
 	@echo "  make test     运行后端测试"
 
 run: ## 启动后端服务
-	@uvicorn backend.main:app --reload
+	@python -m backend.run
 
 build: ## 构建前端并嵌入后端静态目录
 	cd frontend && npm install && npm run build
