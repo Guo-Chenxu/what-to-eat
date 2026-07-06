@@ -221,3 +221,6 @@ __marimo__/
 .garbin/
 .vscode/
 *.db
+config.yaml
+
+backend/static/

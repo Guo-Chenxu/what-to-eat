@@ -1,0 +1,15 @@
+llm:
+  base_url: "https://api-inference.modelscope.cn/v1"
+  api_key: "<YOUR_API_KEY>"   # ⚠️ 请勿将真实 key 提交至版本库，建议用环境变量或 git-ignored 文件注入
+  model: "deepseek-ai/DeepSeek-V4-Flash"
+
+database:
+  path: "data/what_to_eat.db"
+
+weather:
+  city: "Beijing"       # 无法获取定位时的降级城市
+  language: "zh-cn"    # 传入 wttr.in URL 的 lang 参数，可配置
+
+app:
+  host: "0.0.0.0"
+  port: 8000
